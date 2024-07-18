@@ -1,0 +1,61 @@
+{
+  "detail": {
+    "eventVersion": "1.09",
+    "userIdentity": {
+      "type": "AssumedRole",
+      "principalId": "AROAZD7MKJZAKLLPDBWII:HongJinHyeok",
+      "arn": "arn:aws:sts::627023957568:assumed-role/AWSReservedSSO_Devops_ae1db4a030b3068c/HongJinHyeok",
+      "accountId": "627023957568",
+      "accessKeyId": "ASIAZD7MKJZAMMKWZZ6I",
+      "sessionContext": {
+        "sessionIssuer": {
+          "type": "Role",
+          "principalId": "AROAZD7MKJZAKLLPDBWII",
+          "arn": "arn:aws:iam::627023957568:role/aws-reserved/sso.amazonaws.com/ap-northeast-2/AWSReservedSSO_Devops_ae1db4a030b3068c",
+          "accountId": "627023957568",
+          "userName": "AWSReservedSSO_Devops_ae1db4a030b3068c"
+        },
+        "attributes": {
+          "creationDate": "2024-06-11T04:53:15Z",
+          "mfaAuthenticated": "false"
+        }
+      }
+    },
+    "eventTime": "2024-06-11T08:21:22Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "CreateBucket",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "115.21.61.123",
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.12.488 Linux/5.10.216-182.855.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.372-b08 java/1.8.0_372 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "requestParameters": {
+      "CreateBucketConfiguration": {
+        "LocationConstraint": "us-west-2",
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "bucketName": "teasadasdasdsad",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "additionalEventData": {
+      "SignatureVersion": "SigV4",
+      "CipherSuite": "TLS_AES_128_GCM_SHA256",
+      "bytesTransferredIn": 153,
+      "AuthenticationMethod": "AuthHeader",
+      "x-amz-id-2": "PNAOL9BlnK1ytqkl+YLtfKbS7z1SBkpmVSmx7UB66WR6v9lbejWk0qwWgRUt4CwW74Dt2l6zvmg=",
+      "bytesTransferredOut": 0
+    },
+    "requestID": "15ZBPKREE4SBMYB7",
+    "eventID": "3fe11d1b-e6c7-4c7c-9c48-c89eb5c975bf",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "627023957568",
+    "vpcEndpointId": "vpce-a0d039c9",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "s3.us-west-2.amazonaws.com"
+    }
+  }
+}
